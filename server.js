@@ -6,7 +6,7 @@ var cors= require('cors');
 PouchDB.plugin(require('pouchdb-find'));
 
 // // // app.use('/db', require('express-pouchdb')(PouchDB));
-app.set('port', (process.env.PORT || 5000));
+app.set('port', (process.env.PORT || 8080));
 var _app = require('express-pouchdb')({
   mode: 'fullCouchDB',
   overrideMode: {

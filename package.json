@@ -1,0 +1,23 @@
+{
+  "name": "db",
+  "version": "1.0.0",
+  "description": "Database (PouchDb Server)",
+  "main": "db.js",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "cors": "^2.8.1",
+    "express": "^4.15.0",
+    "pouchdb": "^6.1.2",
+    "pouchdb-find": "^0.10.5",
+    "pouchdb-server": "^2.3.5",
+    "socket-pouch": "^2.0.0",
+    "sys": "0.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node db.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

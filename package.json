@@ -1,8 +1,8 @@
 {
-  "name": "db",
+  "name": "server",
   "version": "1.0.0",
   "description": "Database (PouchDb Server)",
-  "main": "db.js",
+  "main": "server.js",
   "dependencies": {
     "child_process": "^1.0.2",
     "cors": "^2.8.1",
@@ -16,7 +16,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node db.js"
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC"
